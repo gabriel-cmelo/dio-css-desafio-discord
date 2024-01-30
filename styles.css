@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    background-image: url('https://s3-alpha-sig.figma.com/img/8565/620e/66413fdaffd7b36fd00f578891f19f7c?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PKfagEMhMLxJJ1Gyh8kkrWhkK2nvluanIr~W4cBMh2LFk8rDxu1j0sQBY3-uEDDt5DhG4q4PqGtJZWLqqZMVlrcrpHEXjUqAkFnEVU29kN3yJwVvM8tvCiEneV1mg-lH3mnRnJxxWyGVCcvUkCb4vyY42DCR3B40ZPpUoq0RYo7yVTA5lOgSXsT03OuF7gSM-dhiVgQZ-bflZpx~NqFKuGRSnuQtVYzdvcKRPcXFa~K5bEx8aNCB4jX5eZ6YFs9izGsfv4T21V5j8q~eo2JX1SbFmTYKSk4XSCbPEQ8nU89mgBS302WKAvqQ6bKtm02Hu28gX~ViDhVY4P2nW4XEjQ__');
+    background-size: cover;
+    background-position: center center;
+    height: 459px;
+    width: auto; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 757px;
+    height: auto;
+}
+
+.header-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Luckiest Guy";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 313px;
+    height: auto;
+    margin: 0;
+}
+
+.header-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+button {
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 11px 24px 11px 24px;
+}
+
+#button-one {
+    background: white;
+    border: #FFF;
+    color: #23272A;
+}
+
+#button-two {
+    background: #23272A;
+    border: #23272A;
+    color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-container1 {
+    display: flex;
+    align-items: center;
+    width: 971px;
+    height: auto;
+    padding: 35px 0px 35px 0px;
+}
+
+.text-container1 h3 {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-container1 p {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-container2 {
+    display: flex;
+    align-items: center;
+    width: 971px;
+    height: auto;
+    padding: 35px 0px 35px 0px;
+}
+
+.text-container2 h3 {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-container2 p {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sec-2 {
+    background: #F6F6F6;
+}
+
+.section-container3 {
+    display: flex;
+    align-items: center;
+    width: 971px;
+    height: auto;
+    padding: 35px 0px 35px 0px;
+}
+
+.text-container3 h3 {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-container3 p {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 971px;
+    height: auto;
+    padding: 35px 0px 35px 0px;
+}
+
+.text-container4 {
+    text-align: center;
+    width: 800px;
+}
+
+.text-container4 h3 {
+    color: #23272A;
+    text-align: center;
+    font-family: "Luckiest Guy";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-container4 p {
+    color: #23272A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sec-4 {
+    background: #F6F6F6;
+}
+
+footer {
+    background: #23272A;
+    display: flex;
+    width: auto;
+    height: 134px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+

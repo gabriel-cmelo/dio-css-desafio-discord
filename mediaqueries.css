@@ -1,0 +1,110 @@
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .header-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        padding: 40px 25px;
+    }
+
+    .header-content h3 {
+        font-size: 36px;
+        width: 50%;
+        text-align: start;
+    }
+
+    .header-content p {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .section-container1,
+    .section-container3,
+    .section-container4 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 25px;
+    }
+
+    .section-container2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 25px;
+    }
+
+    .section-container1 img,
+    .section-container2 img,
+    .section-container3 img,
+    .section-container4 img {
+        height: auto;
+        width: 100%;
+    }
+
+    .text-container1,
+    .text-container2,
+    .text-container3,
+    .text-container4 {
+        width: 100%;
+    }
+
+    .text-container1 h3,
+    .text-container2 h3,
+    .text-container3 h3 {
+        font-size: 24px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .text-container4 h3 {
+        font-size: 28px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .text-container1 p,
+    .text-container2 p,
+    .text-container3 p,
+    .text-container4 p {
+        font-size: 16px;
+        width: 100%;
+        text-align: start;
+    }
+
+    footer {
+        height: auto;
+        padding: 10px;
+    }
+
+}
